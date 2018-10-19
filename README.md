@@ -12,5 +12,7 @@ cd cloud_bench
 ./setup.sh
 ```
 
+Then, be sure to change the cron jobs. Do `crontab -e` and then add `* * * * * /home/ubuntu/cloud_bench/memory.sh`
+
 ### setup.sh
 `setup.sh` updates the environment and installs all of the necessary benchmarking tools, such as STREAM, Bonnie++ and LLCBench
