@@ -1,7 +1,7 @@
 # Cloud Benchmarking Tools
 This repository contains scripts to benchmark cloud environments. The requirements to run this script are:
 
-Ubuntu
+Ubuntu 18.04
 
 ## Directions
 Run the following inside a cloud instance you have just started:
